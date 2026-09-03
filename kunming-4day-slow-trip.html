@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>昆明 4 天慢游 · 和妈妈一起</title>
+<style>
+  :root{
+    --bg:#faf6f0; --card:#ffffff; --ink:#3d3229; --soft:#8a7a6a;
+    --accent:#c96f4a; --accent-soft:#f3e2d6; --green:#7d9b76; --line:#eadfd2;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+  .hero{background:linear-gradient(135deg,#f6e7d8 0%,#f0dcc9 50%,#e8d3bd 100%);padding:64px 24px 48px;text-align:center}
+  .hero .emoji{font-size:44px}
+  .hero h1{font-size:30px;font-weight:700;margin:12px 0 8px;letter-spacing:2px}
+  .hero p{color:var(--soft);font-size:15px}
+  .chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+  .chip{background:rgba(255,255,255,.75);border-radius:999px;padding:6px 16px;font-size:13.5px;color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.06)}
+  .wrap{max-width:680px;margin:0 auto;padding:36px 20px 60px}
+  .day{margin-bottom:32px}
+  .day-head{display:flex;align-items:baseline;gap:10px;margin-bottom:14px}
+  .day-num{background:var(--accent);color:#fff;border-radius:10px;padding:4px 12px;font-weight:700;font-size:14px}
+  .day-head h2{font-size:19px}
+  .day-head .wd{color:var(--soft);font-size:14px}
+  .timeline{position:relative;padding-left:20px;border-left:2px solid var(--line);margin-left:8px}
+  .item{background:var(--card);border-radius:14px;padding:13px 16px;margin-bottom:12px;box-shadow:0 2px 8px rgba(61,50,41,.05);position:relative}
+  .item::before{content:"";position:absolute;left:-27px;top:20px;width:10px;height:10px;border-radius:50%;background:var(--accent);border:2px solid var(--bg)}
+  .item .row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .item .what{font-weight:600;font-size:15px}
+  .item .when{color:var(--accent);font-size:13px;font-weight:600;white-space:nowrap}
+  .item .note{color:var(--soft);font-size:13px;margin-top:2px}
+  .item.hl{border:1.5px solid var(--accent);background:#fffaf6}
+  .todo{background:var(--card);border-radius:14px;padding:16px 18px;box-shadow:0 2px 8px rgba(61,50,41,.05)}
+  .todo h3{font-size:15px;margin-bottom:8px;color:var(--green)}
+  .todo li{list-style:none;font-size:14px;color:var(--soft);padding:3px 0}
+  .done{text-decoration:line-through;opacity:.7}
+  footer{text-align:center;color:var(--soft);font-size:12.5px;padding:0 20px 40px}
+  @media(max-width:480px){.hero h1{font-size:24px}.item .row{flex-direction:column}.item .when{order:-1}}
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="emoji">🍄</div>
+    <h1>昆明 4 天慢游</h1>
+    <p>翠湖边的慢日子 · 和妈妈一起</p>
+    <div class="chips">
+      <span class="chip">📅 8.31 – 9.3</span>
+      <span class="chip">👩‍👧 和妈妈</span>
+      <span class="chip">😴 自然醒 · 不赶路</span>
+      <span class="chip">🚄 9/3 18:38 回石林</span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="day">
+      <div class="day-head"><span class="day-num">8/31</span><h2>中午抵达</h2><span class="wd">周一</span></div>
+      <div class="timeline">
+        <div class="item"><div class="row"><span class="what">🍲 原林野山菌火锅</span><span class="when">中午</span></div><div class="note">到昆明第一顿</div></div>
+        <div class="item"><div class="row"><span class="what">🥬 钱局街溜达</span><span class="when">饭后</span></div><div class="note">看天气，不热就去，买妈妈爱吃的泡菜</div></div>
+        <div class="item"><div class="row"><span class="what">🦢 翠湖溜达</span></div></div>
+        <div class="item"><div class="row"><span class="what">☕ 咖啡店 / 茶馆歇脚</span></div><div class="note">妈妈喜欢安静坐着歇歇</div></div>
+        <div class="item"><div class="row"><span class="what">🍜 靖园蒸饵丝</span><span class="when">傍晚</span></div><div class="note">翠湖边，肚子饿了就去</div></div>
+      </div>
+    </div>
+
+    <div class="day">
+      <div class="day-head"><span class="day-num">9/1</span><h2>调香与咖啡日</h2><span class="wd">周二</span></div>
+      <div class="timeline">
+        <div class="item"><div class="row"><span class="what">🧁 Just Hot 买小蛋糕</span><span class="when">早上</span></div></div>
+        <div class="item"><div class="row"><span class="what">🚕 柒家 Sevens 地中海餐厅</span><span class="when">午饭</span></div><div class="note">打车去</div></div>
+        <div class="item hl"><div class="row"><span class="what">🌸 LP 自由生长调香室</span><span class="when">午后</span></div><div class="note">自制香水体验 ✨</div></div>
+        <div class="item"><div class="row"><span class="what">🚶 文林街 + 麻园米轨公园</span><span class="when">之后</span></div><div class="note">随便逛逛</div></div>
+        <div class="item"><div class="row"><span class="what">☕ 找个咖啡店坐坐</span></div></div>
+        <div class="item"><div class="row"><span class="what">🍚 犀牛食堂</span><span class="when">晚餐</span></div></div>
+      </div>
+    </div>
+
+    <div class="day">
+      <div class="day-head"><span class="day-num">9/2</span><h2>滇剧写真日</h2><span class="wd">周三</span></div>
+      <div class="timeline">
+        <div class="item"><div class="row"><span class="what">🍚 茄子恰恰</span><span class="when">午饭</span></div></div>
+        <div class="item hl"><div class="row"><span class="what">📸 古渡梨园 · 滇剧写真</span><span class="when">14:00</span></div><div class="note">给妈妈拍，2 点准时到</div></div>
+        <div class="item"><div class="row"><span class="what">🍗 傣家竹楼（三合苑店）</span><span class="when">晚饭</span></div><div class="note">营业到 21:00，拍完来得及</div></div>
+      </div>
+    </div>
+
+    <div class="day">
+      <div class="day-head"><span class="day-num">9/3</span><h2>收尾 &amp; 回石林</h2><span class="wd">周四</span></div>
+      <div class="timeline">
+        <div class="item"><div class="row"><span class="what">📞 太小食堂电话排号</span><span class="when">10:00</span></div></div>
+        <div class="item"><div class="row"><span class="what">🍽️ 太小食堂</span><span class="when">11:00</span></div><div class="note">到店坐下吃饭</div></div>
+        <div class="item"><div class="row"><span class="what">🍵 云平风味园</span><span class="when">下午</span></div><div class="note">回去前最后一顿 ✅</div></div>
+        <div class="item hl"><div class="row"><span class="what">🚄 动车回石林</span><span class="when">18:38</span></div></div>
+      </div>
+    </div>
+
+    <div class="todo">
+      <h3>📝 待办</h3>
+      <li class="done">✓ 傣家竹楼 9/2 晚餐确认（营业到 21:00）</li>
+      <li class="done">✓ 9/3 下午：云平风味园 → 18:38 动车回石林</li>
+      <li class="done">✓ 出发前查昆明天气</li>
+    </div>
+  </div>
+
+  <footer>🍄 和妈妈的昆明慢日子 · 8.31 – 9.3</footer>
+</body>
+</html>
