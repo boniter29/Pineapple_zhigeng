@@ -10,38 +10,38 @@
     --accent:#c96f4a; --accent-soft:#f3e2d6; --green:#7d9b76; --line:#eadfd2;
   }
   *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:"PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+  body{font-family:"PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;font-size:17px}
   .hero{background:linear-gradient(135deg,#f6e7d8 0%,#f0dcc9 50%,#e8d3bd 100%);padding:64px 24px 48px;text-align:center}
   .hero .emoji{font-size:44px}
   .hero h1{font-size:30px;font-weight:700;margin:12px 0 8px;letter-spacing:2px}
   .hero p{color:var(--soft);font-size:15px}
   .chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:20px}
-  .chip{background:rgba(255,255,255,.75);border-radius:999px;padding:6px 16px;font-size:13.5px;color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.06)}
+  .chip{background:rgba(255,255,255,.75);border-radius:999px;padding:6px 16px;font-size:14.5px;color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.06)}
   .wrap{max-width:680px;margin:0 auto;padding:36px 20px 60px}
   .day{margin-bottom:32px}
   .day-head{display:flex;align-items:baseline;gap:10px;margin-bottom:14px}
   .day-num{background:var(--accent);color:#fff;border-radius:10px;padding:4px 12px;font-weight:700;font-size:14px}
-  .day-head h2{font-size:19px}
+  .day-head h2{font-size:21px}
   .day-head .wd{color:var(--soft);font-size:14px}
   .timeline{position:relative;padding-left:20px;border-left:2px solid var(--line);margin-left:8px}
   .item{background:var(--card);border-radius:14px;padding:13px 16px;margin-bottom:12px;box-shadow:0 2px 8px rgba(61,50,41,.05);position:relative}
   .item::before{content:"";position:absolute;left:-27px;top:20px;width:10px;height:10px;border-radius:50%;background:var(--accent);border:2px solid var(--bg)}
   .item .row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
-  .item .what{font-weight:600;font-size:15px}
-  .item .when{color:var(--accent);font-size:13px;font-weight:600;white-space:nowrap}
-  .item .note{color:var(--soft);font-size:13px;margin-top:2px}
+  .item .what{font-weight:600;font-size:17px}
+  .item .when{color:var(--accent);font-size:14px;font-weight:600;white-space:nowrap}
+  .item .note{color:var(--soft);font-size:15px;margin-top:3px}
   .item.hl{border:1.5px solid var(--accent);background:#fffaf6}
   .item.skipped{opacity:.55}
   .item.skipped .what::after{content:"未去";font-size:11px;color:#b0563f;background:#f7e6de;border-radius:6px;padding:1px 7px;margin-left:8px;font-weight:600}
   .recap{background:#f2f0e9;border-radius:14px;padding:15px 18px;margin:-4px 0 16px 8px;border:1.5px dashed #cfc9b8}
   .recap h3{font-size:14px;color:#7d9b76;margin-bottom:8px}
-  .recap p{font-size:14px;color:#5a4f42;margin-bottom:8px}
-  .recap .thought{color:#8a7a6a;font-style:normal;background:#fff;border-radius:10px;padding:8px 12px;font-size:13.5px}
+  .recap p{font-size:16px;color:#5a4f42;margin-bottom:8px}
+  .recap .thought{color:#8a7a6a;font-style:normal;background:#fff;border-radius:10px;padding:8px 12px;font-size:15px}
   .recap .pics{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
   .recap .pics img{width:120px;height:120px;object-fit:cover;border-radius:10px}
   .todo{background:var(--card);border-radius:14px;padding:16px 18px;box-shadow:0 2px 8px rgba(61,50,41,.05)}
   .todo h3{font-size:15px;margin-bottom:8px;color:var(--green)}
-  .todo li{list-style:none;font-size:14px;color:var(--soft);padding:3px 0}
+  .todo li{list-style:none;font-size:15px;color:var(--soft);padding:3px 0}
   .done{text-decoration:line-through;opacity:.7}
   footer{text-align:center;color:var(--soft);font-size:12.5px;padding:0 20px 40px}
   @media(max-width:480px){.hero h1{font-size:24px}.item .row{flex-direction:column}.item .when{order:-1}}
@@ -61,7 +61,7 @@
   </div>
 
   <div class="wrap">
-    <p style="text-align:center;font-size:12.5px;color:var(--soft);margin-bottom:24px">行程对照：<span style="opacity:.55">变灰 + 「未去」标记</span> = 计划了但没去；带色块边框的是当天重点</p>
+    <p style="text-align:center;font-size:14px;color:var(--soft);margin-bottom:24px">行程对照：<span style="opacity:.55">变灰 + 「未去」标记</span> = 计划了但没去；带色块边框的是当天重点</p>
     <div class="day">
       <div class="day-head"><span class="day-num">8/31</span><h2>中午抵达</h2><span class="wd">周一</span></div>
       <div class="timeline">
